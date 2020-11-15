@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+#title {
+  text-align: center;
+  font-family: arial, sans-serif;
+}
+
+#nums {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 100%;
+}
+
+#nums td, #nums th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#nums tr:odd{background-color: #000000;}
+
+#nums tr:hover {background-color: #000000;}
+
+#nums th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+}
